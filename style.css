@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 255, 255, 0.2), rgba(0, 255, 255, 0.2)), url(/SL_043021_42650_12.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 110px;
+}
+.top-box{
+    background-color: white;
+    border-radius: 8px 8px 0px 0px;
+    padding: 40px;
+    width: 670px;
+}
+.bottom-box{
+    display: flex;
+    width: 800px;
+}
+.left{
+    width: 350px;
+    background-color: rgb(12, 137, 153);
+    border-radius: 0 0 0 8px;
+}
+.right{
+    width: 350px;
+    background-color: rgb(6, 181, 204);
+    color: white;
+    border-radius: 0 0 8px 0;
+}
+#right-h3{
+    font-size: 25px;
+    padding: 30px 20px 0 50px;
+    font-weight: 600;
+}
+#list{
+    list-style: none;
+    padding: 20px 0px 30px 50px;
+}
+.list-elements{
+    padding-bottom: 5px;
+    color: rgba(255, 255, 255, 0.795);
+    font-weight: 500;
+}
+#top-box-heading{
+    font-size: 40px;
+    color: #15b4c9;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+#top-box-heading-2{
+    color: rgb(163, 179, 24);
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+#top-box-p{
+    color: rgba(128, 128, 128, 0.61);
+    font-size: 20px;
+    font-weight: 600;
+    width: 700px;
+}
+.left{
+    padding: 20px 0px 30px 50px;
+}
+#left-box-title{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+#price{
+    color: white;
+    padding: 20px 0px 10px 0px;
+}
+#month{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.747);
+}
+#left-p{
+    color: white;
+    padding: 0 0 30px 0;
+    font-weight: 500;
+}
+#btn{
+    height: 54px;
+    width: 276px;
+    background-color: rgb(190, 207, 31);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgb(173, 189, 29);
+}
